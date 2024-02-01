@@ -1,7 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 .header{
     background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 16px;
 }
 .logo{
-    font-size: 64px;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.links{
+    font-size: 16px;
+    color:#E5E7EB;
     
 }
+.container1{
+    background-color:#1F2937;
+    display: flex;
+    
+}
+
+.main{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+.signUp{
+    display: flex;
+    flex-shrink: 0;
+    height: 30px;
+    background-color: #3882F6;
+}
+.naslov{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  .slika_info {
+    width: 100px;
+    height: 100px;
+  }
+  .big_image{
+    width: 400px;
+    height: 150px;
+  }
+  .info{
+    max-width: 200px;
+  }
+  .container3{
+    display: flex;
+    background-color: #E5E7EB;
+    
+  }
+  .quote{
+    font-size: 36px;
+    color:#1F293F;
+    display: flex;
+    padding: 30px;
+    
+  }
+  .potpis{
+    display: flex;
+    font-size:20px ;
+    font-weight: bold;
+    align-items: flex-end;
+    
+  }
+  .CTA{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    flex-shrink: 0;
+    padding: 40px;
+  }
+  .call_to_action{
+    color:#F9FAF8;
+    font-weight: bold;
+    text-align: left;
+  }
+  .small_cta{
+    font-size: 10px;
+  }
