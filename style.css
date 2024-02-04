@@ -25,7 +25,7 @@ body{
 .container1{
     background-color:#1F2937;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .main{
@@ -33,11 +33,15 @@ body{
     font-weight:bolder;
     color:#F9FAF8;
 }
+.small{
+    color:#F9FAF8;
+    filter: contrast(0.5);
+}
 .signUp{
     display: flex;
     flex-shrink: 0;
     height: 30px;
-    background-color: #3882F6;
+    margin: 10px;
 }
 .naslov{
     font-size: 48px;
@@ -45,19 +49,23 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 .container2{
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 90px;
   }
   .slika_info {
-    width: 100px;
+    width: 200px;
     height: 100px;
+    border-radius: 10px;
   }
   .big_image{
     width: 400px;
     height: 150px;
+    margin: 60px;
   }
   .info{
     max-width: 200px;
@@ -65,7 +73,7 @@ body{
   .container3{
     display: flex;
     background-color: #E5E7EB;
-    
+    padding: 50px 170px;
   }
   .quote{
     font-size: 36px;
@@ -89,12 +97,39 @@ body{
     justify-content: left;
     flex-shrink: 0;
     padding: 40px;
+    margin: 50px;
+    width: 700px;
+    border-radius: 10px;
+  }
+  .container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   .call_to_action{
     color:#F9FAF8;
     font-weight: bold;
     text-align: left;
+    font-size: 22px;
   }
   .small_cta{
-    font-size: 10px;
+    font-size: 15px;
+    color:#F9FAF8;
+    filter: contrast(0.8);
+  }
+  .texten{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: left;
+    width: 400px;
+  }
+  .text{
+    text-align: center;
+  }
+  .cta_button{
+    display: flex;
+    padding: 10px 50px;
+    
   }
